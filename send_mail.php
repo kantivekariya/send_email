@@ -3,7 +3,7 @@
 	$Contact=$_POST['txt_cnt'];
 	$v_email=$_POST['email'];
 
-	$email_from="kantivekariya@gmail.com";
+	$email_from="onlywithdhaval@gmail.com";
 	$email_subject="New Form Submission";
 	$email_body="User Name : $name.\n".
 					"User Email: $v_email.\n".
