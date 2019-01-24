@@ -3,13 +3,13 @@
 	$Contact=$_POST['txt_cnt'];
 	$v_email=$_POST['email'];
 
-	$email_from="onlywithdhaval@gmail.com";
+	$email_from="xyz@gmail.com";
 	$email_subject="New Form Submission";
 	$email_body="User Name : $name.\n".
 					"User Email: $v_email.\n".
 					"User Contact: $Contact.\n";
 
-	$to="kantivekariya242@gmail.com";
+	$to="abc@gmail.com";
 
 	$header="From : $email_from \r\n";
 
